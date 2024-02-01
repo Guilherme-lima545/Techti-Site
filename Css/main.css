@@ -1,0 +1,1729 @@
+body {
+    font-family: 'Open Sauce one';
+    background-color: #000746;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    .body, .html, .Logo, .header-1, .a, .header-2 {
+        width: 320px;
+        height: 480px;
+       
+    }
+}
+
+@media  screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+
+    .body, .html, .Logo, .header-1, .a, .header-2 {
+        width: 1366px;
+        height: 768px;
+        
+    }
+}
+    
+@media screen and (min-device-width: 638px) and (max-device-width: 1322px) {
+
+    .body, .html, .Logo, .header-1, .a, .header-2  {
+        width: 1322px;
+        height: 638px;
+        
+    }
+}
+
+
+
+@media  screen and (min-width: 1080px) and (max-width: 1920px) { 
+
+    .body, .html, .Logo, .header-1, .a, .header-2 {
+        width: 1920px;
+        height: 1080px;
+        
+    }
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
+
+    .body, html, .Logo, .header-1, .a, .header-2 {
+        width: 1024px;
+        height: 768px;
+    
+    }
+
+}
+
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+
+    .body, .html, .Logo, .header-1, .header-2 {
+        width: 1536px;
+        height: 2048px;
+      
+       
+    }
+}
+
+@media screen and (max-width:240px) {
+
+    .body, .html, .Logo, .header-1, .header-2 {
+        width: 240px;
+        height: 320px;
+       
+       
+    }
+
+}
+
+ul {
+
+    padding: 0px !important;
+}
+
+
+/* ================================ */
+        /* Header-1 */
+/* ================================ */
+
+
+
+
+.Logo {
+    width: 40px; 
+    height: 48px;
+    left:  142px;
+    top: 112px;
+    cursor: pointer;
+
+}
+
+.header-1{
+    position: absolute;
+    width: 40px;
+    height: 48px;
+    left: 142px;
+    top: 122px;
+}
+
+.menu-principal{
+    box-sizing: border-box;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    
+    background: #000746;
+}
+
+ 
+main {
+    position: relative;
+    float: left;
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-size: cover
+
+}
+
+
+/* 
+/* ============================================= */
+                /* Header-2 */
+/* ============================================= */ 
+
+
+.header-2 {
+
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 3px solid #efefef;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 82px;
+    border-radius: 1px;
+}
+
+
+#menu-ul li {
+
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 1px;
+}
+
+#menu-ul {
+
+    position: absolute;
+    width: 479px;
+    height: 37px;
+    margin-right: 5%;
+}
+
+
+a{
+
+color: #fff;
+
+text-decoration: none;
+
+letter-spacing: normal;
+}
+
+
+
+
+#menu-ul li a {
+    left: 119px;
+    top: 150px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    line-height: 114.7%;
+}
+
+
+ a:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 3%;
+    position: relative;
+    background: #2ACE31;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+    margin-top: 5%;
+
+}
+
+#menu-ul a:hover::after{
+
+    width: 50%;
+    left: 1;
+}
+
+
+#menu-ul li a:hover {
+    border-color: #2ACE31 solid 2px;
+    color: #2ACE31;
+
+}
+
+
+
+
+
+.header-2 {
+     width: 100%;
+     border-bottom: 3px solid;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 1080px;
+    width: 1920px;
+}
+
+.content {
+    height: 1106px;
+    width: 1990px;
+    border-radius: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 15%;
+
+}
+
+/* ============================================= */
+                /*  JS */
+/* ============================================= */ 
+
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    top: 5%;
+    display: flex;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide {
+    width: 50%;
+    position: relative;
+}
+
+.slide img{
+    width: 1920px;
+}
+
+.manual-navigation{
+    position:absolute;
+    width: 1380;
+    margin-top: -40px ;
+    display: flex;
+    justify-content: center;
+}
+
+.manual.btn{
+    border: 2px solid #0faf17;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.body {
+    background-color: #010846;
+}
+
+
+
+.menu {
+
+height: 37px;
+
+width: 1140px;
+
+left: 301px;
+
+top: 120px;
+
+border-radius: 5px;
+}
+
+
+
+/* ============================================= */
+                /*  Foto */
+/* ============================================= */ 
+
+
+
+.Connected {
+    position: absolute;
+    left: 74.45%;
+    right: 8.28%;
+    top: 17.69%;
+    bottom: 79.72%;
+}
+
+
+
+.Foto {
+
+height: 991px;
+
+width: 955px;
+
+left: 869px;
+
+top: 89px;
+
+border-radius: 0px;
+
+position: absolute;
+
+right: 5%;
+
+
+bottom: 0%;
+}
+
+/* ============================================= */
+                /*  Letra com Gradient */
+/* ============================================= */ 
+
+.gradient {
+
+    width: 615px;
+    height: 190px;
+
+
+    position: absolute;
+    left: 7.29%;
+    right: 60.68%;
+    top: 50%;
+    bottom: 32.96%;
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 92px;
+
+        background: linear-gradient(133.99deg, #7DF381 -12.2%, #2ACE31 81.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+ li {
+
+/* display: inline-block; */
+
+padding: 4px;
+}
+
+
+
+/* ============================================= */
+                /*  Confira abaixo */
+/* ============================================= */ 
+
+.Confira {
+
+    color: #2ACE31;
+    position: absolute;
+    left: 7.45%;
+    right: 67.97%;
+    top: 71.76%;
+    bottom: 24.91%;
+    
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 111.7%;
+    
+    letter-spacing: 0.300em;
+    text-transform: uppercase;
+    
+}
+
+
+/* ============================================= */
+                /*  Whatsapp */
+/* ============================================= */ 
+
+
+.whats {
+    position: fixed;
+    bottom: 200px;
+    z-index: 1000;
+    cursor: pointer;
+    left: 7px;
+
+    animation-name: pulsar;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes pulsar {
+    0% {
+        height: 65px;
+        width: 65px;
+    }
+
+    100% {
+        height: 85px;
+        width: 85px;
+    }
+}
+
+
+/* ============================================= */
+                /* Bio */
+/* ============================================= */ 
+
+.cool-100 {
+
+    background-color: #000746;
+    width: 1920px;
+    height: 623px;
+}
+
+
+
+.textogrande {
+
+position: absolute;
+
+width: 562px;
+
+height: 225px;
+
+left: 5px;
+
+top: 192px;
+
+font-family: 'Open Sauce One';
+
+font-style: normal;
+
+font-weight: 700;
+
+font-size: 48px;
+
+line-height: 146.2%;
+
+color: #fff;
+}
+
+h1 {
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 146.2%;
+
+}
+
+.textogrande {
+
+position: relative;
+left: 3cm;
+}
+
+
+#paragrafo {
+ position: absolute; 
+
+ width: 826px; 
+
+ height: 221px; 
+
+ left: 920px; 
+
+ top: 40px; 
+
+ font-family: 'Open Sauce One'; 
+
+ font-style: normal; 
+
+ font-weight: 400; 
+
+font-size: 24px; 
+
+ line-height: 211.2%; 
+
+ color: #FFFFFF; 
+}
+
+
+/* ============================================= */
+                /* Subtopicos */
+/* ============================================= */ 
+
+:root{
+    --cor-fundo : #fff
+    --cor-primaria: #fff
+    --cor-hover: #fff
+}
+
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    display: block;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dp-menu ul ul {
+    display: none;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+ 
+}
+
+.dp-menu ul ul {
+    width: 210px;
+    left: -4px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+.quemsomos{
+    position: absolute;
+    width: 180px;
+    height: 22px;
+    left: 170px;
+    
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 114.7%;
+    
+    text-align: left;
+
+
+}
+
+
+
+
+.contato {
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    Left: 380px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -3px;
+
+
+}
+
+.serviços {
+    height: 22px;
+width: 85px;
+left: 119px;
+top: 50%;
+}
+
+.serviçes {
+    height: 22px;
+    width: 85px;
+    top: -17px;
+    left: -12%;
+}
+
+.serviçes:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 20%;
+    position: relative;
+    background: #2ACE31;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+    margin-top: 5%;
+
+}
+
+
+.contato:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 2%;
+    position: relative;
+    background: #2ACE31;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+    margin-top: 5%;
+
+}
+
+.quemsomos:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 1%;
+    position: relative;
+    background: #2ACE31;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+    margin-top: 5%;
+
+}
+
+
+.quemsomos:hover::after{
+
+    width: 29%;
+    left: 1;
+}
+
+.contato:hover::after{
+
+    width: 50%;
+    left: 1;
+}
+
+
+
+.contato:hover {
+    border-color: #2ACE31 solid 2px;
+    color: #2ACE31;
+
+}
+
+.quemsomos:hover {
+    border-color: #2ACE31 solid 2px;
+    color: #2ACE31;
+
+}
+
+.dp-menu2 ul{
+    list-style-type: none;
+}
+
+
+.dp-menu2 ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu2 ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.dp-menu2 ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 19px;
+}
+
+.dp-menu2 ul ul {
+    display: none;
+    position: absolute;
+}
+
+.dp-menu2 ul li:hover ul {
+    display: block;
+ 
+}
+
+.dp-menu2 ul ul {
+    width: 450px;
+    top: 40px;
+    font-size: 20px;
+}
+
+.dp-menu2 ul ul li a {
+    display: inline-block;
+}
+
+.sub2 {
+    display: inline-block;
+    left: 170px;
+}
+
+.empresa {
+
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.marcas:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 1%;
+    position: relative;
+    background: #2ACE31;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+    margin-top: 5%;
+
+}
+
+.marcas:hover{
+    border-color: #2ACE31 solid 2px;
+    color: #2ACE31;
+}
+
+.marcas:hover::after {
+    width: 29%;
+    left: 1;
+
+}
+
+.sobre:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 1%;
+    position: relative;
+    background: #2ACE31;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+    margin-top: 5%;
+
+}
+
+.sobre:hover{
+    border-color: #2ACE31 solid 2px;
+    color: #2ACE31;
+}
+
+.sobre:hover::after {
+    width: 29%;
+    left: 1;
+
+}
+
+.quemsomos:hover {
+    border-color: #2ACE31 solid 2px;
+    color: #2ACE31;
+
+}
+
+
+
+.dp-menu3 ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.dp-menu3 ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu3 ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.dp-menu3 ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dp-menu3 ul ul {
+    display: none;
+    position: absolute;
+}
+
+.dp-menu3 ul li:hover ul {
+    display: inline;
+ 
+}
+
+.dp-menu3 ul ul {
+    width: 550px;
+}
+
+.dp-menu3 ul ul li a {
+    display: block;
+}
+
+.formu {
+    font-size: 20px;
+}
+
+.fale {
+    top: -25px;
+    left: 375px;
+}
+
+.contato {
+    top: -48px;
+}
+
+.quemsomos {
+
+    top: -23px;
+}
+
+.empresa {
+
+    top: -31px;
+}
+
+.empresa {
+    padding: 1px;
+}
+
+.email:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 1%;
+    position: relative;
+    background: #2ACE31;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+    margin-top: 5%;
+
+}
+
+.email:hover{
+    border-color: #2ACE31 solid 2px;
+    color: #2ACE31;
+}
+
+.email:hover::after {
+    width: 29%;
+    left: 1;
+
+}
+
+
+.formu:hover {
+    border-color: #2ACE31 solid 2px;
+    color: #2ACE31;
+
+}
+
+.formu:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 1%;
+    position: relative;
+    background: #2ACE31;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+    margin-top: 5%;
+
+}
+
+.formu:hover::after {
+    width: 29%;
+    left: 1;
+
+}
+
+.marcas {
+    margin-top: -30px;
+}
+
+
+
+/* ============================================= */
+                /* Saiba mais */
+/* ============================================= */ 
+
+.header-serviços {
+
+    position: relative;
+    width: 1920px;
+    height: 885px;
+
+    background: #000746;
+}
+
+.Saibamais {
+    position: relative;
+    width: 1920px;
+    height: 885px;
+
+}
+
+.text1 {
+    position: absolute;
+    left: 31.98%;
+    right: 31.98%;
+    top: 13.22%;
+    bottom: 78.98%;
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 111.7%;
+
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(133.99deg, #7DF381 -12.2%, #2ACE31 81.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.manutenção {
+
+    position: absolute;
+    left: 9.17%;
+    right: 72.97%;
+    top: 33.45%;
+    bottom: 15.14%;
+}
+
+.cabeamento {
+
+    position: absolute;
+    left: 30%;
+    right: 52.29%;
+    top: 33.45%;
+    bottom: 14.9%;
+}
+
+.consultoria {
+
+    position: absolute;
+    left: 51.93%;
+    right: 30.37%;
+    top: 33.45%;
+    bottom: 14.92%;
+}
+
+.cftv {
+
+    position: absolute;
+    left: 72.81%;
+    right: 9.48%;
+    top: 33.45%;
+    bottom: 14.92%;
+}
+
+
+/* ============================================= */
+                /* Formulario */
+/* ============================================= */ 
+
+.textct {
+
+position: absolute;
+
+left: 15.21%;
+
+right: 15.21%;
+
+top: 13.89%;
+
+bottom: 76.53%;
+
+font-family: 'Open Sauce One';
+
+font-style: normal;
+
+font-weight: 700;
+
+font-size: 65px;
+
+line-height: 111.7%;
+
+display: flex;
+
+align-items: center;
+
+text-align: center;
+
+background: linear-gradient(133.99deg, #7DF381 -12.2%, #2ACE31 81.78%);
+
+-webkit-background-clip: text;
+
+-webkit-text-fill-color: transparent;
+
+background-clip: text;
+
+text-fill-color: transparent;
+}
+
+.subtext {
+    position: absolute;
+    left: 15.86%;
+    right: 15.86%;
+    top: 23.75%;
+    bottom: 67.78%;
+
+
+font-family: 'Open Sauce One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 211.2%;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+
+
+form {
+    box-sizing: border-box;
+    position: absolute;
+    width: 340px;
+    height: 83.32px;
+    left: 273px;
+    top: 283px;
+}
+
+
+div.single-input {
+    width: 70%;
+    margin: 30px 0;
+    position: relative;
+}
+
+
+div.single-input label {
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(237 202 202);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+
+div.single-input .input {
+    width: 100%;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 16px;
+}
+
+div.single-input .input:focus {
+
+    border-bottom: 2px solid #2ACE31;
+}
+
+div.single-input .input:focus ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #2ACE31;
+}
+
+/* ============================================= */
+                /* Empresa */
+/* ============================================= */ 
+
+div.single-input2 {
+    width: 70%;
+    left: 291px;
+    margin: 30px 0;
+    top: -61px;
+    position: relative;
+}
+
+
+div.single-input2 label {
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(237 202 202);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+
+div.single-input2 .input {
+    width: 100%;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 16px;
+}
+
+div.single-input2 .input:focus {
+
+    border-bottom: 2px solid #2ACE31;
+}
+
+div.single-input2 .input:focus ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #2ACE31;
+}
+
+/* ============================================= */
+                /* Email */
+/* ============================================= */ 
+
+div.single-input3 {
+    width: 70%;
+    left: 622px;
+    margin: 30px 0;
+    top: -122px;
+    position: relative;
+}
+
+
+div.single-input3 label {
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(237 202 202);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+
+div.single-input3 .input {
+    width: 100%;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 16px;
+}
+
+div.single-input3 .input:focus {
+
+    border-bottom: 2px solid #2ACE31;
+}
+
+div.single-input3 .input:focus ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #2ACE31;
+}
+
+/* ============================================= */
+                /* Telefone */
+/* ============================================= */ 
+
+div.single-input4 {
+    width: 70%;
+    margin: 30px 0;
+    top: -90px;
+    position: relative;
+}
+
+
+div.single-input4 label {
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(237 202 202);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+
+div.single-input4 .input {
+    width: 100%;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 16px;
+}
+
+div.single-input4 .input:focus {
+
+    border-bottom: 2px solid #2ACE31;
+}
+
+div.single-input4 .input:focus ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #2ACE31;
+}
+
+
+
+/* ============================================= */
+                /* Mensagem */
+/* ============================================= */ 
+
+div.single-input5 {
+    width: 697px;
+    margin: 35px 0;
+    left: 300px;
+    top: -190px;
+    position: relative;
+}
+
+
+div.single-input5 label {
+    font-size: 16px;
+    position: absolute;
+    left: 40px;
+    bottom: 90px;
+    color: rgb(237 202 202);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+
+div.single-input5 .input {
+    width: 80%;
+    height: 133.51px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 16px;
+}
+
+div.single-input5 .input:focus {
+
+    border-bottom: 2px solid #2ACE31;
+}
+
+div.single-input5 .input:focus ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #2ACE31;
+}
+
+
+
+/* ============================================= */
+                /* Rodapé */
+/* ============================================= */ 
+
+footer {
+width: 1920px;
+height: 400px;
+bottom: 0;
+top: 700px;
+background: #00042C ;
+position: relative;
+flex-grow: 1;
+
+} 
+
+
+.logoroda {
+    position: absolute;
+    width: 44px;
+    height: 54px;
+    left: 213px;
+    top: 88px;
+}
+
+.Empresa {
+
+    position: absolute;
+    width: 109px;
+    height: 149px;
+    left: 376px;
+    top: 88px;
+    color: #fff;
+}
+
+
+
+.empres {
+
+
+font-family: 'Open Sauce One';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 111.7%;
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+
+.recursos {
+    position: absolute;
+    width: 240px;
+    height: 149px;
+    left: 604px;
+    top: 79px;
+    color: #fff;
+}
+
+.acom {
+    position: absolute;
+    width: 284px;
+    height: 23px;
+    left: 963px;
+    top: 80px;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 111.7%;
+    color: #FFFFFF;
+}
+
+.face {
+    position: absolute;
+    width: 17.39px;
+    height: 33.53px;
+    left: 963px;
+    top: 139.06px;
+    
+}
+
+.ins {
+
+    position: absolute;
+    width: 33.06px;
+    height: 33.11px;
+    left: 1032.75px;
+    top: 139.06px;
+}
+
+.linke {
+    position: absolute;
+    width: 33.63px;
+    height: 33.57px;
+    left: 1118.45px;
+    top: 139.06px;
+}
+
+.tt  {
+
+    position: absolute;
+    left: 62.76%;
+    right: 35.05%;
+    top: 33.75%;
+    bottom: 56.75%;
+
+    color: #FFFFFF;
+}
+
+.tele {
+    position: absolute;
+    width: 268px;
+    height: 23px;
+    left: 1366px;
+    top: 88px;
+    
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 111.7%;
+
+    
+    
+    color: #FFFFFF;
+    
+
+}
+
+.mail {
+
+    position: absolute;
+    width: 340px;
+    height: 23px;
+    left: 1366px;
+    top: 133px;
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 111.7%;
+
+
+    color: #FFFFFF;
+
+}
+
+.local {
+
+    position: absolute;
+    width: 226px;
+    height: 23px;
+    left: 1366px;
+    top: 170px;
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 111.7%;
+
+
+
+    color: #FFFFFF;
+}
+
+.lina {
+
+    position: absolute;
+    width: 1610px;
+    height: 0px;
+    left: 155px;
+    top: 305px;
+
+    border: 1px solid #FFFFFF
+}
+
+.copy {
+
+    position: absolute;
+    width: 481px;
+    height: 18px;
+    left: 155px;
+    top: 338px;
+    display: inline-block;
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 111.7%;
+
+
+    color: #FFFFFF;
+}
+
+.desenvol {
+
+    position: absolute;
+    width: 317px;
+    height: 16px;
+    left: 1448px;
+    top: 338px;
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 111.7%;
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+
+h2.cima {
+
+bottom: 5px;
+}
+
+
+/* ============================================= */
+                /* Botão */
+/* ============================================= */
+
+
+.enviar {
+
+position: absolute;
+
+width: 244px;
+
+height: 62px;
+
+left: 630px;
+
+top: 290px;
+
+background: linear-gradient(253.38deg, #40D846 3.32%, #1AA41F 76.54%);
+
+border-radius: 53px;
+
+font-family: 'Open Sauce One';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 211.2%;
+color: #000746;
+
+}
+
+
+/* ============================================= */
+                /* Infra */
+/* ============================================= */ 
+
+
+
+.Titulo {
+    position: absolute;
+    left: 15.21%;
+    right: 15.21%;
+    top: 13.89%;
+    bottom: 76.53%;
+    
+    
+    
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 111.7%;
+    
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    background: linear-gradient(133.99deg, #7DF381 -12.2%, #2ACE31 81.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+
+.tec {
+    height: 61px;
+    position: absolute;
+    left: 3.86%;
+    right: 27.86%;
+    top: 23.75%;
+    bottom: 67.78%;
+    color: #FFFFFF;
+    font-family: 'Open Sauce One';
+    font-size: 20px;
+}
+
+
+.tp {
+    width: 590px;
+    height: 90px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 4.02%;
+    right: 57.92%;
+    top: 43.87%;
+    display: list-item;
+    bottom: 10.42%;
+}
+
+
+
+
+.question {
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 111.7%;
+
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(133.99deg, #7DF381 -12.2%, #2ACE31 81.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+
+.pergunta {
+
+    position: absolute;
+    left: 15.21%;
+    right: 15.21%;
+    top: 69.89%;
+    bottom: 76.53%;
+}
+
+.conte {
+    width: 980px;
+    height: 80px;
+    bottom: 72.46%;
+    line-height: 211.2%;
+    margin-left: 150px;
+    color: #FFFFFF;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.malfoy {
+    width: 600px;
+    align-items: center;
+    margin-left: 650px;
+}
+
+.textogrande {
+
+margin-right: 390px;
+}
+
+.textct {
+
+height: 60px;
+
+}
+
+
+.dpt {
+    position: absolute;
+left: 8.02%;
+right: 57.92%;
+top: 30.42%;
+bottom: 57.31%;
+
+font-family: 'Open Sauce One';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 146.2%;
+
+
+
+color: #FFFFFF;
+}
+
+
